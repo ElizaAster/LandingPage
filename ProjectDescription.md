@@ -1,3 +1,5 @@
+Descrição detalhada do Projeto/Ativida
+
 A importância de uma Landing Page
 
 No mundo do desenvolvimento web, saber apresentar informações de forma clara, organizada e visualmente atrativa é essencial. Por isso, muitos desenvolvedores criam páginas pessoais, conhecida como Landing Page para mostrar suas habilidades, contar um pouco sobre si mesmos e expor projetos ou experiências profissionais. 
