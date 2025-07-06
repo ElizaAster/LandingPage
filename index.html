@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eliza Aster - Portfólio Profissional</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="https://avatars.githubusercontent.com/u/97484431?v=4">
+</head>
+<body>
+
+    <nav class="main-nav">
+        <a href="#" class="logo">
+            <img src="image/Eliza.jpg" alt="Foto de Perfil Eliza Aster" class="profile-logo">
+        </a>
+        <input type="checkbox" id="menu-toggle">
+        <label for="menu-toggle" class="menu-icon">&#9776;</label>
+        <ul class="nav-links">
+            <li><a href="#home">Início</a></li>
+            <li><a href="#about">Sobre Mim</a></li>
+            <li><a href="#skills">Habilidades</a></li>
+            <li><a href="#projects">Projetos</a></li>
+            <li><a href="#contact">Contato</a></li>
+        </ul>
+    </nav>
+
+    <header id="home" class="hero">
+        <div class="hero-content">
+            <img src="image/Eliza.jpg" alt="Minha Foto/Avatar" class="profile-picture">
+            <h1>Eliza Aster</h1>
+            <p class="tagline">inserir (bloco de notas).</p>
+
+            </div>
+    </header>
+
+    <main>
+        <section id="about" class="section-container">
+            <h2 class="section-title">Sobre Mim</h2>
+            <div class="about-content">
+                <p>inserir p1 (bloco de notas)</p>
+                <p>inserir p2 (bloco de notas)</p>
+            </div>
+        </section>
+
+        <section id="skills" class="section-container">
+            <h2 class="section-title">Habilidades</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3>Desenvolvimento Web</h3>
+                    <ul>
+                        <li>inserir (bloco de notas)</li>        
+                        <li>inserir (bloco de notas)</li>
+                        <li>inserir (bloco de notas)</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3>inserir (bloco de notas)</h3>
+                    <ul>
+                        <li>inserir (bloco de notas)</li>
+                        <li>inserir (bloco de notas)</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3>Ferramentas & Outros</h3>
+                    <ul>
+                        <li>inserir (bloco de notas)</li>
+                        <li>inserir (bloco de notas)</li>
+                        <li>inserir (bloco de notas)</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="section-container">
+            <h2 class="section-title">Meus Projetos</h2>
+            <div class="projects-grid">
+                <article class="project-card">
+                    <h3>Projeto 1: Portfólio Pessoal</h3>
+                    <p>Este website! Desenvolvido para apresentar minhas habilidades em HTML e CSS, com foco em design responsivo e acessibilidade.</p>
+                    <ul>
+                        <li><a href="https://github.com/ElizaAster/" target="_blank">Ver Repositório no GitHub</a></li>
+                    </ul>
+                </article>
+
+                <article class="project-card">
+                    <h3>Projeto 2: inserir (bloco de notas)</h3>
+                    <p>inserir (bloco de notas)</p>
+                    <ul>                        
+                    <li><a href="https://github.com/ElizaAster/" target="_blank">Ver Repositório no GitHub</a></li>
+                    </ul>
+                </article>
+                </div>
+        </section>
+
+        <section class="additional-info-section">
+            <h2 class="section-title">Um Pouco Mais Sobre Mim</h2>
+            <p>Inserir P1 (bloco de notas).</p>
+        </section>
+    </main>
+
+    <footer id="contact" class="footer-section">
+        <h2 class="section-title">Entre em Contato</h2>
+        <p>Estou sempre aberta a novas oportunidades e colaborações. Sinta-se à vontade para me contatar!</p>
+        <p>E-mail: <a href="mailto:elizaaster@outlook.com">elizaaster@outlook.com</a></p>
+        <div class="social-links-footer">
+            <a href="https://www.linkedin.com/in/elizaaster" target="_blank" title="LinkedIn"><img src="https://cdn-icons-png.flaticon.com/128/3669/3669739.png" alt="GitHub"></a>
+            <a href="https://www.instagram.com/elizaaster.tech" target="_blank" title="Instagram"><img src="https://cdn-icons-png.flaticon.com/128/1384/1384015.png" alt="LinkedIn"></a>
+            <a href="https://github.com/ElizaAster" target="_blank" title="GitHub"><img src="https://cdn-icons-png.flaticon.com/128/1051/1051326.png" alt="Instagram"></a>
+            // inserir outlook (não obrigatório, se der temmpo)
+        </div>
+        <p class="copyright">&copy; 2025 Eliza Aster. Todos os direitos reservados.</p>
+    </footer>
+
+    <script>
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+
+                // Fecha o menu hamburguer após clicar em um link (para mobile)
+                const menuToggle = document.getElementById('menu-toggle');
+                if (menuToggle && menuToggle.checked) {
+                    menuToggle.checked = false;
+                }
+            });
+        });
+    </script>
+</body>
+</html>

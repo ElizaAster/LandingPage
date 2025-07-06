@@ -1,4 +1,4 @@
-Descrição detalhada do Projeto/Ativida
+Descrição detalhada do Projeto/Atividade
 
 A importância de uma Landing Page
 
@@ -6,14 +6,14 @@ No mundo do desenvolvimento web, saber apresentar informações de forma clara, 
 Neste projeto vou colocar em prática os conhecimentos adquiridos de HTML semântico e CSS, construindo minha própria página pessoal. Além de ser uma excelente forma de fixar o conteúdo, essa prática serve como o primeiro passo na criação do meu portfólio, algo muito valorizado em entrevistas e oportunidades futuras na área da tecnologia. Mais do que apenas codificar, este exercício me convida a refletir sobre como veu quero ser vista como profissional e a organizar essas informações de maneira técnica e criativa.
 
 Projeto/Atividade:
-Vou criar uma Landing Page, como se fosse uma pequena apresentação profissional. Essa página deve mostrar quem sou, o que sei fazer e alguns dos seus projetos.
+Vou criar uma Landing Page, como se fosse uma pequena apresentação profissional. Essa página deve mostrar quem sou, o que sei fazer e alguns dos meus projetos.
 
 ______________________________________________
 Estrutura em HTML
 
 Cabeçalho (<header>) com:
-Meu nome completo - Eliza Monteiro Fagudes Mota Santana
-Uma frase que me represente - "Faça o seu melhor"
+Meu nome completo - Eliza Mota
+Uma frase que me represente - ""
 Uma foto minha ou um avatar - 
 
 Menu de navegação (<nav>) com:
