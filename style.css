@@ -7,12 +7,12 @@
     --cyan: #b9a534;
     --white: #FFFFFF;
     --soft-pink: #86275c93; /* Rosa semi-transparente do meu perfil */
-    --muted-gold: #b9a534; /* Dourado do meu GitHub */
+    --muted-gold: #b9a534; /* Dourado do meu github*/
 
-    /* Definição de cores para uso no CSS */
-    --primary-color: var(--cyan);       /* Ciano vibrante para links, destaques */
-    --secondary-color: var(--soft-pink); /* Rosa semi-transparente para seções especiais */
-    --accent-gold: var(--muted-gold);   /* Dourado para detalhes e interações, bordas principais */
+    /* definição de cores para uso no CSS */
+    --primary-color: var(--cyan);       /* ciano vibrante para links, destaques..*/
+    --secondary-color: var(--soft-pink); /* rosa tbm semi-transparente para seções especiais */
+    --accent-gold: var(--muted-gold);   /* douradinho para detalhes e interações, bordas principais */
 
     --text-dark: var(--black);
     --text-light: var(--white);
@@ -22,11 +22,11 @@
     /* Outras variáveis de estilo */
     --border-radius: 8px;
     --box-shadow-light: 0 4px 8px rgba(0, 0, 0, 0.1);
-    --box-shadow-dark: 0 2px 5px rgba(0, 255, 255, 0.3); /* Sombra mais vibrante para elementos escuros */
+    --box-shadow-dark: 0 2px 5px rgba(0, 255, 255, 0.3); /* arise XD mais vibrante para elementos escuros */
     --transition-speed: 0.3s ease;
 }
 
-/* Estilos Globais e Reset Básico */
+/* estilos globais e reset basico */
 * {
     margin: 0;
     padding: 0;
@@ -38,17 +38,17 @@ body {
     line-height: 1.6;
     color: var(--text-dark);
     background-color: var(--bg-light);
-    overflow-x: hidden; /* Evita rolagem horizontal indesejada */
+    overflow-x: hidden; /* para evitar rolagem horizontal indesejada */
 }
 
 a {
-    color: var(--primary-color); /* Links em ciano por padrão */
+    color: var(--primary-color); /* links em ciano por padrãooo */
     text-decoration: none;
     transition: color var(--transition-speed);
 }
 
 a:hover {
-    color: #00CCCC; /* Um ciano ligeiramente mais escuro para hover */
+    color: #00CCCC; /* um ciano ligeiramente mais escuro para hover (minha cor favorita)*/
 }
 
 ul {
@@ -62,7 +62,7 @@ ul {
     align-items: center;
     background-color: var(--bg-dark);
     padding: 15px 50px;
-    box-shadow: var(--box-shadow-dark); /* Sombra ciano */
+    box-shadow: var(--box-shadow-dark); /* sombra ciano */
     position: sticky;
     top: 0;
     z-index: 1000;
@@ -77,13 +77,13 @@ ul {
     width: 45px;
     height: 45px;
     border-radius: 50%;
-    border: 2px solid var(--accent-gold); /* Borda dourada para o logo na navegação */
+    border: 2px solid var(--accent-gold); /* borda dourada para o logo na navegação */
     transition: transform var(--transition-speed);
 }
 
 .main-nav .profile-logo:hover {
     transform: scale(1.1);
-    box-shadow: 0 0 10px var(--primary-color); /* Sombra ciano ao passar o mouse */
+    box-shadow: 0 0 10px var(--primary-color); /* sombra ciano ao passar o mouse é um charme*/
 }
 
 .main-nav .nav-links {
@@ -115,7 +115,7 @@ ul {
     width: 100%;
 }
 
-/* Menu Hamburguer (para mobile) */
+/* menu xbuguer  */
 #menu-toggle {
     display: none;
 }
@@ -129,8 +129,8 @@ ul {
 
 /* --- Seção de Início/Cabeçalho (Hero) --- */
 .hero {
-    /* Imagem de fundo oriental com transparência */
-    background-image: url('/image/finaliperfect.jpg'); /* **SUBSTITUA PELA SUA IMAGEM REAL AQUI** */
+    /* imagem de fundo oriental com transparência - por sinal muito dificil de achar*/
+    background-image: url('image/finaliperfect.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -151,7 +151,7 @@ ul {
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.7); /* Overlay preto semi-transparente */
+    background-color: rgba(0, 0, 0, 0.7); /* overlay preto semi-transparente */
     z-index: 1;
 }
 
@@ -172,16 +172,16 @@ ul {
     height: 180px;
     border-radius: 50%;
     object-fit: cover;
-    border: 5px solid var(--accent-gold); /* Borda dourada para a foto no header */
+    border: 5px solid var(--accent-gold); /* borda dourada para a foto no header */
     margin-bottom: 20px;
-    box-shadow: 0 0 20px var(--accent-gold); /* Sombra dourada vibrante */
+    box-shadow: 0 0 20px var(--accent-gold); /* sombra dourada vibrante */
 }
 
 .hero h1 {
     font-family: 'Montserrat', sans-serif;
     font-size: 3.5em;
     margin-bottom: 10px;
-    color: var(--primary-color); /* Ciano para o nome */
+    color: var(--primary-color);
     text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.8);
 }
 
@@ -191,11 +191,6 @@ ul {
     color: var(--white);
     margin-bottom: 30px;
     text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
-}
-
-/* REMOVIDO: Links de redes sociais no hero */
-.social-links-hero {
-    display: none; /* Esconde completamente os links de redes sociais do header */
 }
 
 /* --- Estilos das Seções de Conteúdo --- */
@@ -212,7 +207,7 @@ ul {
 .section-title {
     font-family: 'Montserrat', sans-serif;
     font-size: 2.5em;
-    color: var(--text-dark); /* Títulos das seções em preto */
+    color: var(--text-dark); /* títulos das seções em preto */
     margin-bottom: 40px;
     text-align: center;
     position: relative;
@@ -227,7 +222,7 @@ ul {
     bottom: 0;
     width: 80px;
     height: 4px;
-    background-color: var(--primary-color); /* Linha abaixo do título em ciano */
+    background-color: var(--primary-color); 
     border-radius: 2px;
 }
 
@@ -256,20 +251,20 @@ ul {
     background-color: var(--bg-light);
     padding: 25px;
     border-radius: var(--border-radius);
-    border: 1px solid var(--primary-color); /* Borda ciano */
+    border: 1px solid var(--primary-color); /* borda ciano */
     text-align: center;
     transition: transform var(--transition-speed), box-shadow var(--transition-speed);
-    box-shadow: 0 0 10px rgba(0, 255, 255, 0.2); /* Sombra ciano sutil */
+    box-shadow: 0 0 10px rgba(0, 255, 255, 0.2); /* sombra ciano sutil */
 }
 
 .skill-category:hover {
     transform: translateY(-5px);
-    box-shadow: 0 8px 20px rgba(0, 255, 255, 0.4), 0 0 15px var(--accent-gold); /* Sombra mais intensa e um toque dourado */
+    box-shadow: 0 8px 20px rgba(0, 255, 255, 0.4), 0 0 15px var(--accent-gold); 
 }
 
 .skill-category h3 {
     font-family: 'Montserrat', sans-serif;
-    color: var(--text-dark); /* Título da categoria em preto */
+    color: var(--text-dark); /* título da categoria em preto */
     margin-bottom: 15px;
     font-size: 1.4em;
 }
@@ -279,11 +274,11 @@ ul {
 }
 
 .skill-category ul li {
-    background-color: rgba(0, 255, 255, 0.1); /* Ciano com 10% de opacidade */
+    background-color: rgba(0, 255, 255, 0.1); 
     padding: 10px 15px;
     margin-bottom: 10px;
     border-radius: 5px;
-    border: 1px solid var(--primary-color); /* Borda ciano nos itens */
+    border: 1px solid var(--primary-color); /* borda ciano nos itens */
     font-size: 1em;
     color: var(--text-dark);
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.08);
@@ -291,11 +286,11 @@ ul {
 }
 
 .skill-category ul li:hover {
-    background-color: rgba(0, 255, 255, 0.2); /* Mais ciano no hover */
-    border-color: var(--accent-gold); /* Borda dourada no hover */
+    background-color: rgba(0, 255, 255, 0.2); /* mais ciano no hover */
+    border-color: var(--accent-gold); /* borda dourada no hover */
 }
 
-/* Seção Projetos (Aplicando a mesma dinâmica de cores das habilidades) */
+/* Seção Projetos */
 .projects-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
@@ -307,8 +302,8 @@ ul {
     background-color: var(--bg-light);
     padding: 30px;
     border-radius: var(--border-radius);
-    border: 1px solid var(--primary-color); /* Borda ciano inicial */
-    box-shadow: 0 0 10px rgba(0, 255, 255, 0.2); /* Sombra ciano sutil */
+    border: 1px solid var(--primary-color); /* borda ciano inicial */
+    box-shadow: 0 0 10px rgba(0, 255, 255, 0.2); /* sombra ciano sutil */
     transition: transform var(--transition-speed), border-color var(--transition-speed), box-shadow var(--transition-speed);
     display: flex;
     flex-direction: column;
@@ -317,13 +312,13 @@ ul {
 
 .project-card:hover {
     transform: translateY(-8px);
-    box-shadow: 0 8px 20px rgba(0, 255, 255, 0.4), 0 0 15px var(--accent-gold); /* Sombra ciano mais intensa e um toque dourado */
-    border-color: var(--accent-gold); /* Borda dourada no hover */
+    box-shadow: 0 8px 20px rgba(0, 255, 255, 0.4), 0 0 15px var(--accent-gold); /* sombra ciano mais intensa e um toque dourado */
+    border-color: var(--accent-gold); /* borda dourada no hover */
 }
 
 .project-card h3 {
     font-family: 'Montserrat', sans-serif;
-    color: var(--text-dark); /* Título do projeto em preto */
+    color: var(--text-dark); /* título do projeto em preto */
     margin-bottom: 15px;
     font-size: 1.5em;
 }
@@ -353,28 +348,28 @@ ul {
 }
 
 .project-card ul li a:hover {
-    background-color: #00CCCC; /* Ciano mais escuro para hover */
-    box-shadow: 0 0 8px var(--accent-gold); /* Sombra dourada para o botão */
+    background-color: #00CCCC; /* ciano mais escuro para hover */
+    box-shadow: 0 0 8px var(--accent-gold); /* sombra dourada para o botão */
 }
 
-/* Seção Informações Extras (com o rosa semi-transparente) */
+/* section Informações Extras (com o rosa semi-transparente) */
 .additional-info-section {
-    background-color: var(--secondary-color); /* Usando o rosa semi-transparente */
+    background-color: var(--secondary-color); 
     color: var(--white);
     padding: 60px 20px;
     margin: 30px auto;
     max-width: 1200px;
     border-radius: var(--border-radius);
-    box-shadow: 0 4px 15px rgba(134, 39, 92, 0.6); /* Sombra mais pronunciada com a cor rosa */
+    box-shadow: 0 4px 15px rgba(134, 39, 92, 0.6); 
     text-align: center;
 }
 
 .additional-info-section .section-title {
-    color: var(--text-light); /* Título "Um Pouco Mais Sobre Mim" em BRANCO */
+    color: var(--text-light); 
 }
 
 .additional-info-section .section-title::after {
-    background-color: var(--primary-color); /* Linha abaixo do título em ciano */
+    background-color: var(--primary-color); 
 }
 
 .additional-info-section p {
@@ -391,15 +386,15 @@ ul {
     text-align: center;
     padding: 60px 20px;
     margin-top: 0;
-    box-shadow: 0 -2px 5px rgba(0, 255, 255, 0.3); /* Sombra ciano para o rodapé */
+    box-shadow: 0 -2px 5px rgba(0, 255, 255, 0.3); 
 }
 
 .footer-section .section-title {
-    color: var(--text-light); /* Título "Entre em Contato" em BRANCO */
+    color: var(--text-light); 
 }
 
 .footer-section .section-title::after {
-    background-color: var(--primary-color); /* Linha abaixo do título em ciano */
+    background-color: var(--primary-color); /* line abaixo do título em ciano */
 }
 
 .footer-section p {
@@ -407,13 +402,13 @@ ul {
     margin-bottom: 20px;
 }
 
-.footer-section p a { /* Estiliza o link de email especificamente */
-    color: var(--text-light); /* Link de email em branco */
+.footer-section p a { /* estiliza o link de email especificamente */
+    color: var(--text-light); /* link de email em branco */
     font-weight: 600;
 }
 
 .footer-section a:hover {
-    color: var(--accent-gold); /* Dourado ao passar o mouse em todos os links do rodapé */
+    color: var(--accent-gold); /* dourado ao passar o mouse em todos os links do rodapé */
 }
 
 .social-links-footer {
@@ -435,7 +430,7 @@ ul {
 
 .social-links-footer a img:hover {
     transform: scale(1.1);
-    box-shadow: 0 0 12px var(--primary-color); /* Sombra ciano nos ícones sociais do rodapé */
+    box-shadow: 0 0 12px var(--primary-color); 
 }
 
 .copyright {
@@ -446,7 +441,7 @@ ul {
 
 /* --- Responsividade --- */
 @media (max-width: 768px) {
-    /* Navegação */
+    /* navegação */
     .main-nav {
         padding: 15px 20px;
     }
@@ -506,12 +501,7 @@ ul {
         height: 150px;
     }
 
-    /* REMOVIDO: Links de redes sociais no hero (para mobile também) */
-    .social-links-hero {
-        display: none;
-    }
-
-    /* Seções de Conteúdo */
+    /* seções de conteúdo */
     .section-container, .additional-info-section, .footer-section {
         padding: 40px 15px;
         margin: 20px auto;
