@@ -130,7 +130,7 @@ ul {
 /* --- Seção de Início/Cabeçalho (Hero) --- */
 .hero {
     /* Imagem de fundo oriental com transparência */
-    background-image: url('/image/finaliperfect.jpg'); /* **SUBSTITUA PELA SUA IMAGEM REAL AQUI** */
+    background-image: url('image/finaliperfect.jpg'); /* **SUBSTITUA PELA SUA IMAGEM REAL AQUI** */
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
